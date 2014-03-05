@@ -1,0 +1,68 @@
+.no-ribbon{line-height:70px;float:right}
+.no-ribbon a{color:white;text-shadow:red 0 0 3px}
+.call-to-action, .course-date{width:calc(50% - 4px);display:inline-block;vertical-align:middle;float:none}
+.call-to-action{min-width:284px}
+.course-date .calendar, .course-date .info{float:none}
+.course-date .calendar{margin:0}
+.header-container{text-align:center;overflow:hidden}
+.header{padding:110px 0px;}
+.navigation{position:absolute;z-index:2;background:none repeat scroll 0% 0% rgba(31, 32, 33, 0.9)}
+.logo{display:block;max-width:100%}
+.pay {
+    width: 90%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    color: rgb(133, 203, 58);
+    text-shadow: 1px 1px 1px #000;
+    font-size: 50px !important;
+    display: inline-block;
+}
+.red {
+	margin-top: 30px;
+	background: #f00 !important;
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.container {
+    width: 100% !important;
+}
+
+.agenda-item {
+    width: 32% !important;
+}
+
+@media (max-width: 580px) 
+{
+    .navigation {
+        position: inherit;
+        height: auto;
+        display: block;
+        float: none;
+    }
+    .navigation .menu{
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 0;
+    }
+    .navigation .menu .menu-item {
+        width: 100%;
+    }
+}
+@media (max-width:620px)
+{
+.container{text-align:center}
+.introduction img, .instructor img, .agenda img{float:none;margin:10px auto}
+}
+@media (max-width: 750px) 
+{
+    .ribbon{
+        visibility: hidden;
+    }
+}
+@media (max-width:920px)
+{
+    .agenda-item:last-child{margin-right:20px}
+}
