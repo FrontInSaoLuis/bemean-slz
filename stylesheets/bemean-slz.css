@@ -42,6 +42,9 @@
         float: none;
         background: rgb(0, 0, 0) !important;
     }
+    nav.fixed {
+        position: relative !important;
+    }
     .navigation .menu{
         width: 100%;
         float: none;
